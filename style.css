@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content{
+    display: grid;
+    column-gap: 10px;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+
+.hero{
+    border-radius: 7px;
+    border: 3px solid hsl(0, 0%, 80%);
+    box-sizing: border-box;
+    width: 130px;
+    height: 230px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px;
+    padding: 10px;
+}
+
+.heroes{
+    justify-content: flex-end;
+}
+
+.villans{
+    justify-content: flex-start;
+}
+.score{
+    justify-content: center;
+    font-size: 9vh;
+}
+
+.name{
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+.power{
+    font-size: 38px;
+}
+
+img{
+    height: 14vh;
+}
+
+p{
+    text-align: center;
+}
